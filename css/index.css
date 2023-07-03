@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+  }
+  
+  form {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #F5F5F5;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  legend {
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #6495ED;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive Layout */
+  
+  @media (max-width: 25rem) {
+    /* Smart-phone */
+    form {
+      padding: 0.5rem;
+    }
+  
+    label {
+      font-size: 0.9rem;
+    }
+  
+    input[type="submit"] {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 25rem) and (max-width: 40rem) {
+    /* Tablet */
+    form {
+      padding: 1rem;
+    }
+  }
+  
+  @media (min-width: 40rem) and (max-width: 50rem) {
+    /* Desktop */
+    form {
+      padding: 1.5rem;
+    }
+  }
+  
